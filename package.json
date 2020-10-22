@@ -1,0 +1,12 @@
+{
+    "name": "babel-note",
+    "version": "0.0.1",
+    "private": true,
+    "description": "babel note.",
+    "devDependencies":{
+        "babel-cli":"^6.26.0"
+    },
+    "scripts":{
+        "build":"babel demo.js --out-file bunder.js"
+    }
+}
